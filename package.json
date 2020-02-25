@@ -1,5 +1,5 @@
 {
-  "name": "dependency-list-to-markdown",
+  "name": "@bonitasoft/dependency-list-to-markdown",
   "description": "A tool to parse project dependencies report Json and html and generate a markdown file",
   "main": "src/updateDocumentationPage.js",
   "version": "1.0.1",
