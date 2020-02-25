@@ -1,5 +1,8 @@
 # dependency-list-to-markdown
 
+https://img.shields.io/npm/l/@bonitasoft/dependency-list-to-markdown
+https://img.shields.io/npm/v/@bonitasoft/dependency-list-to-markdown
+
 This library is a dev-ops internal tooling for Bonita platform.  
 
 ## Usage 
