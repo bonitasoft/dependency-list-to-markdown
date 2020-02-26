@@ -14,7 +14,8 @@ class JsonDependenciesFileParser {
       if (Array.isArray(licence)) {
         licence = licence.join(', ');
       }
-      dataToSave[key] = {'name': key.split('@')[0], 'license': licence, 'version': key.split('@')[1]};
+      let separatorLastIndex = key.lastIndexOf('@');
+      dataToSave[key] = {'name': key.substr(0, separatorLastIndex), 'license': licence, 'version': key.substr(separatorLastIndex + 1)};
     });
     return dataToSave;
   }
